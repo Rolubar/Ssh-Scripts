@@ -7,34 +7,28 @@ http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 
 Abra o PuTTYgen:
 
-Selecione a opção(SSH-2 RSA), caso não esteja. (Número de bits 256)
+Selecione a opÃ§Ã£o(SSH-2 RSA), caso nÃ£o esteja. (NÃºmero de bits 256)
 
 Clique em "Generate"
 
-Para criar as chaves SSH utiliza-se pedaços aleatórios de informações de segurança, será necessário 
-gerar alguns dados aleatórios agitando o mouse em torno da área da janela. 
-Esta aleatoriedade, conhecida como entropia, é usada para criar 
-chaves de uma forma segura, que não será reproduzida por outras pessoas.
+Para criar as chaves SSH utiliza-se pedaÃ§os aleatÃ³rios de informaÃ§Ãµes de seguranÃ§a, serÃ¡ necessÃ¡rio 
+gerar alguns dados aleatÃ³rios agitando o mouse em torno da Ã¡rea da janela. 
+Esta aleatoriedade, conhecida como entropia, Ã© usada para criar 
+chaves de uma forma segura, que nÃ£o serÃ¡ reproduzida por outras pessoas.
 
-A chave publica será gerada.
-Copie esta chave gerada e insira nas gravações de chave que serão validadas.(DigitalOcean,AWS ou MySQL)
+A chave publica serÃ¡ gerada.
+Copie esta chave gerada e insira nas gravaÃ§Ãµes de chave que serÃ£o validadas.(DigitalOcean,AWS ou MySQL)
 Salve a chave publica em local seguro.
 Insira sua senha nos campos de "Key e Confirm".
 Salve a chave privada em local seguro.
-
-
-
-
-
-
 
 MAC e Linux
 
 No terminal digite:
 ssh-keygen -t rsa
 
-ENTER -- Cria a chave no diretório padrão.
+ENTER -- Cria a chave no diretÃ³rio padrÃ£o.
 /User/.ssh/id_rsa
 
-Será solicitado a criação de senha e contra-senha para a chave.
+SerÃ¡ solicitado a criaÃ§Ã£o de senha e contra-senha para a chave.
 
